@@ -1,0 +1,29 @@
+<table class="default" border="1px solid black" >
+
+    <tr>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Imagen</th>
+    </tr>
+  
+    <% if(hayProductos) { %>
+        <% for(let i=0; i < productos.length; i++) { %>
+            <tr>
+                <td> <%= productos[i].title %></td>
+                <td> <%= productos[i].price %></td>
+                <td> <img src= " <%= productos[i].thumbnail %> "</td>
+            </tr>
+        <% } %>
+        <% } else { %>
+
+            <h1>No hay productos</h1>
+
+    <% } %>
+
+
+  
+  </table>
+  
+  <br>
+  
+  <a href="/" >Volver</a>

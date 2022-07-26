@@ -1,0 +1,8 @@
+Los 3 tienen sus cosas buenas y malas, pienso que PUG y EJS son mas sencillos de aplicar por lo que me es facil descartar HANDLEBARS. 
+
+PUG me gusta, me recuerda a PYTHON en la sintaxis, en simple y rapido pero creo que me limitaria.
+
+Mientras que EJS usa la misma sintaxis de HTML que se aplica en general, los comandos INCLUDE y los "<%=" y sus variantes son molestos, aunque poder usar las instrucciones de JAVASCRIPT directamente es bueno, es algo que uno ya conoce mientras que en los otros 2 
+hay ir a la documentacion (Hasta aprenderlo)
+
+Por lo que en fin... creo que seguire con EJS (Despues de los starters Pokemon, esta fue la eleccion mas dificil)

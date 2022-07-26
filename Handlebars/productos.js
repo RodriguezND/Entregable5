@@ -4,9 +4,11 @@ const { Router } = express;
 const router = Router();
 
 const productos = []
+let hayProductos = false
 
 //GET PRINCIPAL FORMULARIO
 router.get("/", (req, res) => {
+
 
     res.render("main", {productos: productos})
 
@@ -17,7 +19,14 @@ router.get("/", (req, res) => {
 //GET
 router.get("/productos", (req,res) => {
 
-    res.render("verProdu", {productos: productos})
+    if(productos.length == 0){
+        hayProductos = false
+    }
+    else{
+
+        hayProductos = true
+    }
+    res.render("verProdu", {productos: productos, hayProductos: hayProductos})
 
 })
 
